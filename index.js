@@ -1,20 +1,7 @@
-const fe19 = [
-    "Alexander Halldorsson",
-    "Brian Veliz",
-    "Dawid Czerniakowski",
-    "Diana Nilsson",
-    "Dimitris Adabugday",
-    "Ellinor Jonsson",
-    "Evi Ioannou",
-    "Josefin Lundén",
-    "Markus Wiland",
-    "Mary Björkman",
-    "Rebecca Sandelin",
-    "Shane Ahlbeck",
-    "Taulant Buqa",
-    "Tluang To Thuang",
-    "Vimbay Mandaza"
-];
+const fe19 = [];
+/* Fyll fe19 med strängvärden av de namn du vill ha,
+exempelvis "Hans Andersson" */
+
 var pair = [];
 var arrLen, slumpTal, timer;
 
