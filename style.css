@@ -5,6 +5,7 @@ main {
     background: orange;
     padding: 1em 3em;
     display: flex;
+    flex-wrap: wrap;
 }
 
 main>div {
@@ -110,4 +111,11 @@ section>div {
 .myButton:active {
     position: relative;
     top: 1px;
+}
+
+@media all and max-width: 30em {
+    main>div {
+        flex: 0 1 auto;
+    }
+
 }
